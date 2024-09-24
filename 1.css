@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    text-align: center;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: rgb(148, 145, 146);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c03;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.courses {
+    padding: 40px;
+    text-align: center;
+}
+.courses-offer {
+    padding: 50px;
+    text-align: center;
+}
+
+.courses-offer h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.courses-offer p {
+    margin-bottom: 30px;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course-cards .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.course-cards .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.global-campus {
+    padding: 50px;
+    text-align: center;
+}
+
+.global-campus .campus-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.global-campus .campus-images img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+.facilities {
+    padding: 50px;
+    text-align: center;
+}
+
+.facility-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.facility-cards .card {
+    width: 30%;
+    text-align: center;
+}
+
+.facility-cards .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.facility-cards .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+.testimonials {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.testimonial-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.testimonial {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial h4 {
+    margin-top: 1rem;
+    color: #3e3c3c;
+}
+
+.enroll {
+    background-image: url('banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.enroll h2 {
+    margin-bottom: 1.5rem;
+}
+
+.enroll button {
+    padding: 0.75rem 1.5rem;
+    background-color: #c2c9d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enroll button:hover {
+    background-color: #c7ced6;
+}
+
+.about-us {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-us .team {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.about-us .team img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Design for mobile devices */
+  @media (max-width: 768px) {
+    .courses-container {
+      flex-direction: column; /* Make items stack vertically */
+      align-items: center; /* Center items */
+    }
+    
+    .course {
+      margin-bottom: 15px; /* Add space between items */
+      width: 100%; /* Make each item take full width */
+      text-align: center; /* Center the text */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    }
+  }/* Courses Section */
+.courses-offer {
+    padding: 50px;
+    text-align: center;
+}
+
+.courses-offer h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.courses-offer p {
+    margin-bottom: 30px;
+}
+
+.course-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Add wrap to make items go to the next line */
+}
+
+.course-cards .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.course-cards .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Global Campus Section */
+.global-campus {
+    padding: 50px;
+    text-align: center;
+}
+
+.global-campus .campus-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.global-campus .campus-images img {
+    width: 30%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Facilities Section */
+.facilities {
+    padding: 50px;
+    text-align: center;
+}
+
+.facility-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.facility-cards .card {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.facility-cards .card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.facility-cards .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .course-cards, .global-campus .campus-images, .facility-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-cards .card,
+    .global-campus .campus-images img,
+    .facility-cards .card {
+        width: 80%; /* Full width on small screens */
+    }
+
+    .courses-offer h2, .global-campus h2, .facilities h2 {
+        font-size: 1.5rem;
+    }
+
+    .course-cards .card h3, .facility-cards .card h3 {
+        font-size: 1.2rem;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.testimonial-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.testimonial {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonial h4 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+/* Enroll Section */
+.enroll {
+    background-image: url('enroll-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+.enroll h2 {
+    margin-bottom: 1.5rem;
+}
+
+.enroll button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enroll button:hover {
+    background-color: #0056b3;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-us .team {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.about-us .team img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-us .team {
+        flex-direction: column;
+    }
+}
